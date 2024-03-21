@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8475670100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.launchTheBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6349362900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the Bookcart application \"https://bookcart.azurewebsites.net/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://bookcart.azurewebsites.net/\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.navigateToTheBookcartApplication(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-20T07:58:18.145Z",
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "bookcart-application-shopping;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 571148600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the login btn",
+            "match": {
+              "location": "com.bookstep.BookStepdefinition.userClickTheLoginBtn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309079800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the \"vasantha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vasantha\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.userEnterThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455116400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter \"Vasa1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasa1234\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.userEnter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 613158200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.bookstep.BookStepdefinition.clickTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"mat-option-7\"]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DOG046A\u0027, ip: \u0027192.168.97.248\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59258}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 841402e39bb55547e7204bb43ec1ee2a\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"mat-option-7\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.Base.BaseClass.Input(BaseClass.java:82)\r\n\tat com.bookstep.BookStepdefinition.userSearchThe(BookStepdefinition.java:103)\r\n\tat ✽.user search the \"Rot \u0026 Ruin\"(file:///C:/Users/Lenovo/eclipse-workspace/Cucumber/src/main/java/com/feature/bookscenariooutline.feature:12)\r\n",
+              "duration": 10466630000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user search the \"Rot \u0026 Ruin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rot \u0026 Ruin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.userSearchThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1002300,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user add the book into cart",
+            "match": {
+              "location": "com.bookstep.BookStepdefinition.userAddTheBookIntoCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4400114600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.launchTheBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9010274400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to the Bookcart application \"https://bookcart.azurewebsites.net/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://bookcart.azurewebsites.net/\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.navigateToTheBookcartApplication(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-20T07:58:45.710Z",
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "bookcart-application-shopping;;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 693176300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the login btn",
+            "match": {
+              "location": "com.bookstep.BookStepdefinition.userClickTheLoginBtn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 418105100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the \"ortoni\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ortoni\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.userEnterThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 412104200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass123\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.userEnter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 413105000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.bookstep.BookStepdefinition.clickTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"mat-option-7\"]\"}\n  (Session info: chrome\u003d122.0.6261.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DOG046A\u0027, ip: \u0027192.168.97.248\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59286}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 1236f120de23499d07536700674c28c8\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"mat-option-7\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.Base.BaseClass.Input(BaseClass.java:82)\r\n\tat com.bookstep.BookStepdefinition.userSearchThe(BookStepdefinition.java:103)\r\n\tat ✽.user search the \"Roomies\"(file:///C:/Users/Lenovo/eclipse-workspace/Cucumber/src/main/java/com/feature/bookscenariooutline.feature:12)\r\n",
+              "duration": 10462954500,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user search the \"Roomies\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Roomies\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.bookstep.BookStepdefinition.userSearchThe(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user add the book into cart",
+            "match": {
+              "location": "com.bookstep.BookStepdefinition.userAddTheBookIntoCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bookcart application shopping",
+    "description": "",
+    "id": "bookcart-application-shopping",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/feature/bookscenariooutline.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14407872700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate the bookcart appliction",
+            "match": {
+              "location": "book.com.BookStep.userNavigateTheBookcartAppliction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238058700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "book.com.BookStep.userClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-07T12:24:51.169Z",
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "bookcart-application-demo;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 340088100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the username as \"vasantha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vasantha\"",
+                  "offset": 27
+                }
+              ],
+              "location": "book.com.BookStep.userEnterTheUsernameAs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291075600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the password as \"Vasa1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasa1234\"",
+                  "offset": 27
+                }
+              ],
+              "location": "book.com.BookStep.userEnterThePasswordAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160040800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click the login button",
+            "match": {
+              "location": "book.com.BookStep.userClickTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 486121900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Login should be success",
+            "match": {
+              "location": "book.com.BookStep.loginShouldBeSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10940764000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate the bookcart appliction",
+            "match": {
+              "location": "book.com.BookStep.userNavigateTheBookcartAppliction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219047000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "book.com.BookStep.userClicksOnTheLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-07T12:25:07.404Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "bookcart-application-demo;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 466117900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the username",
+            "match": {
+              "location": "book.com.BookStep.userEnterTheUsername()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325080800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter the password",
+            "match": {
+              "location": "book.com.BookStep.userEnterThePassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156040200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click the login button",
+            "match": {
+              "location": "book.com.BookStep.userClickTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845212100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "login should be fail",
+            "match": {
+              "location": "book.com.BookStep.loginShouldBeFail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Bookcart application demo",
+    "description": "",
+    "id": "bookcart-application-demo",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/book/com/book.feature/featurefile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-07T12:25:20.406Z",
+        "line": 13,
+        "name": "Bookcart login page",
+        "description": "",
+        "id": "bookcart-application-project;bookcart-login-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13827745000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks login button",
+            "match": {
+              "location": "book.com.BookStep.userClicksLoginButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 407102600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the username \"vasantha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vasantha\"",
+                  "offset": 24
+                }
+              ],
+              "location": "book.com.BookStep.userEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 491123400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the password \"Vasa1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasa1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "book.com.BookStep.userEnterThePassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found\n  (Session info: chrome\u003d122.0.6261.96)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DOG046A\u0027, ip: \u0027192.168.244.248\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.96, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 68847229ced9f96adbfd54f3be3e6030\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat book.com.BookStep.userClickTheLoginButton(BookStep.java:43)\r\n\tat ✽.user click the login button(file:///C:/Users/Lenovo/eclipse-workspace/Cucumber/src/main/java/book/com/book.feature/scenariooutline.feature:7)\r\n",
+              "duration": 856216800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "user click the login button",
+            "match": {
+              "location": "book.com.BookStep.userClickTheLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user search the book \"Robbie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Robbie\"",
+                  "offset": 21
+                }
+              ],
+              "location": "book.com.BookStep.userSearchTheBook(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "add the book into the cart",
+            "match": {
+              "location": "book.com.BookStep.addTheBookIntoTheCart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-07T12:25:36.123Z",
+        "line": 14,
+        "name": "Bookcart login page",
+        "description": "",
+        "id": "bookcart-application-project;bookcart-login-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11174999300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks login button",
+            "match": {
+              "location": "book.com.BookStep.userClicksLoginButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 433110800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the username \"ortoni\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ortoni\"",
+                  "offset": 24
+                }
+              ],
+              "location": "book.com.BookStep.userEnterTheUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 463117600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the password \"pass1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pass1234\"",
+                  "offset": 24
+                }
+              ],
+              "location": "book.com.BookStep.userEnterThePassword(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 177034600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button",
+            "match": {
+              "location": "book.com.BookStep.userClickTheLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4947616500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search the book \"Roomies\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Roomies\"",
+                  "offset": 21
+                }
+              ],
+              "location": "book.com.BookStep.userSearchTheBook(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cspan class\u003d\"mat-mdc-button-touch-target\"\u003e\u003c/span\u003e is not clickable at point (499, 426). Other element would receive the click: \u003cspan class\u003d\"mdc-button__label\"\u003e...\u003c/span\u003e\n  (Session info: chrome\u003d122.0.6261.96)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-DOG046A\u0027, ip: \u0027192.168.244.248\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.7\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.96, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\\Users\\Lenovo\\AppData\\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52411}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: aede88db248227240946da3ec0d1f8ee\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat book.com.BookStep.addTheBookIntoTheCart(BookStep.java:102)\r\n\tat ✽.add the book into the cart(file:///C:/Users/Lenovo/eclipse-workspace/Cucumber/src/main/java/book/com/book.feature/scenariooutline.feature:9)\r\n",
+              "duration": 1321159400,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "add the book into the cart",
+            "match": {
+              "location": "book.com.BookStep.addTheBookIntoTheCart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Bookcart application project",
+    "description": "",
+    "id": "bookcart-application-project",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/book/com/book.feature/scenariooutline.feature",
+    "tags": []
+  }
+]
