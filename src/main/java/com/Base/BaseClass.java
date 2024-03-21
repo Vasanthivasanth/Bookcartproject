@@ -45,7 +45,7 @@ public class BaseClass {
 	}
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
-	//Explicity wait ********
+	//Explicity wait ****
 	public static void click(WebElement ele) {
 		wait.until(ExpectedConditions.elementToBeClickable(ele));
 		ele.click();
